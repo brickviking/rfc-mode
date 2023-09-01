@@ -6,11 +6,19 @@
 
 ## Introduction
 
-The rfc-mode Emacs major mode is a browser and reader for RFC documents.
+The rfc-mode Emacs major mode is a browser and reader for RFC documents. This
+repository holds some possible modifications to the original repository, which
+you should compare against. I intend to make a proof-of-concept for adding
+compressed-file support to rfc-mode so that it can read my own already-
+retrieved compressed files.
+
+This has already been addressed in a previous issue on the original repo, so
+I'm checking feasibility.
 
 ## Installation
 
-The package should be installed from MELPA.
+The package should be installed from MELPA. You should only install THIS package
+if you need compressed-file support.
 
 Start by loading the mode:
 
